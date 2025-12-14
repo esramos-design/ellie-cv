@@ -9,6 +9,8 @@
         import { createIcons, MapPin, Mail, Phone, Code, Truck, Wrench, Shield, Zap, BookOpen, Settings, Eye, EyeOff } from 'https://cdn.jsdelivr.net/npm/lucide-icons@0.316.0/dist/esm/lucide.js';
         createIcons({ icons: { MapPin, Mail, Phone, Code, Truck, Wrench, Shield, Zap, BookOpen, Settings, Eye, EyeOff } });
     </script>
+    
+    <!-- CSS STYLES (Simulating style.css) -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
         body {
@@ -118,7 +120,10 @@
                     </div>
                 </div>
 
-                <!-- Contact Bar --><div class="flex flex-wrap justify-center md:justify-start gap-4 mt-6 text-sm">
+                <!-- Contact Bar (Cover Letter Button back in the main bar, styled as a button) -->
+                <div class="flex flex-wrap justify-center md:justify-start gap-4 mt-6 text-sm">
+                    
+                    <!-- Contact Info -->
                     <a href="tel:+447477026978" class="flex items-center space-x-2 hover:text-teal-400 transition">
                         <i data-lucide="phone" class="w-4 h-4"></i>
                         <span>(+44) 07477 026 978</span>
@@ -135,37 +140,31 @@
                         <i data-lucide="shield" class="w-4 h-4"></i>
                         <span>Settled Status (Right to Work)</span>
                     </span>
+                    <!-- COVER LETTER BUTTON (Placed directly after Settled Status) -->
+                    <a href="https://raw.githubusercontent.com/esramos-design/esr_cv/main/cover_letter.md" target="_blank" class="flex items-center space-x-2 px-3 py-1 bg-teal-600 text-white rounded-full font-bold hover:bg-teal-700 transition shadow-md">
+                        <i data-lucide="book-open" class="w-4 h-4"></i>
+                        <span>View Cover Letter</span>
+                    </a>
                 </div>
             </header>
+            
+            <!-- Removed the separate button row as the button is now back in the contact bar -->
 
             <!-- Main Content Sections --><div class="p-6 md:p-8 space-y-12">
                 
-                <!-- 1. Professional Summary -->
+                <!-- 1. Professional Summary (Now using cover letter text) -->
                 <section id="summary-section">
                     <h2 class="section-title">Professional Summary</h2>
                     <p class="text-lg leading-relaxed text-gray-700">
-                        A highly adaptable and safety-focused professional with over 15 years of comprehensive experience spanning **logistics, warehousing, transportation, and emergency services**. Proficient in managing complex inventory, implementing safety protocols, and operating various specialized equipment (FLT B1/R1/P1, Drone A1/A3). I leverage **data analytics skills** (Google Sheets, Excel) to enhance operational efficiency and excel in fast-paced, high-stakes environments, prioritizing immediate problem-solving and meticulous attention to detail.
+                        A highly adaptable and safety-focused professional with over 15 years of comprehensive experience spanning **logistics, warehousing, transportation, and emergency services**. I possess full proficiency and current certification in all key Forklift Truck classes—**Counterbalance (B1), Reach (R1), and Pivot-Steer "Flexi" (P1)**—ensuring readiness to optimize operational procedures. My career is defined by adaptability, efficiency, and a meticulous focus on safety, including certified experience as a **Safety Attendant Officer** and extensive training in **emergency response**. I excel in upholding the highest standard of health and safety compliance and in effective problem-solving under pressure. I hold **Settled Status**, confirming my unrestricted right to work in the UK, and am multilingual in Spanish, Portuguese, and English.
                     </p>
                 </section>
 
-                <!-- 2. Core Competencies & Languages (Side-by-Side on Desktop) -->
-                <div id="skills-section" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- 2. Core Competencies & Languages (3 Columns: Wide Center - md:grid-cols-5 1/5, 3/5, 1/5) -->
+                <div id="skills-section" class="grid grid-cols-1 md:grid-cols-5 gap-8">
                     
-                    <!-- Core Competencies --><div class="md:col-span-2">
-                        <h2 class="section-title">Core Skills</h2>
-                        <div class="flex flex-wrap gap-2 text-sm">
-                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">Logistics & Supply Chain</span>
-                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">Safety Management</span>
-                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">Forklift Operation (Flexi, Reach, Counterbalance)</span>
-                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">Data Analytics (Spreadsheets)</span>
-                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">Emergency Response</span>
-                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">Problem-Solving</span>
-                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">Adaptability & Fast-Paced Environments</span>
-                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">LEAN Principles</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Languages --><div>
+                    <!-- Left Column: Languages (1/5) -->
+                    <div class="md:col-span-1">
                         <h2 class="section-title">Languages</h2>
                         <ul class="space-y-2">
                             <li class="flex justify-between border-b border-gray-100 pb-1">
@@ -182,6 +181,23 @@
                             </li>
                         </ul>
                     </div>
+
+                    <!-- Middle Column: Core Skills (3/5 - WIDER) -->
+                    <div class="md:col-span-3">
+                        <h2 class="section-title">Core Skills</h2>
+                        <div class="flex flex-wrap gap-2 text-sm">
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">Logistics & Supply Chain</span>
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">Safety Management</span>
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">Forklift Operation (Flexi, Reach, Counterbalance)</span>
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">Emergency Response</span>
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">LEAN Principles</span>
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">Inventory Control</span>
+                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full font-medium">Loading & Dispatch Management</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Column: Spacer (1/5) -->
+                    <div class="md:col-span-1 hidden md:block"></div>
                 </div>
 
                 <!-- 3. Work Experience -->
@@ -247,12 +263,13 @@
                     </div>
                 </section>
 
-                <!-- 4. Qualifications & Certifications -->
+                <!-- 4. Qualifications & Certifications (3 Columns: Wide Center) -->
                 <section id="certifications-section">
                     <h2 class="section-title">Certifications & Specialized Skills</h2>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
                         
-                        <!-- Column 1: Licenses & Heavy Equipment --><div>
+                        <!-- Left Column: Licenses & Heavy Equipment (1/5) -->
+                        <div class="md:col-span-1">
                             <h3 class="text-lg font-semibold text-gray-700 mb-3 flex items-center"><i data-lucide="truck" class="w-5 h-5 mr-2 text-teal-600"></i> Licenses & Heavy Equipment</h3>
                             <ul class="space-y-2 text-gray-700">
                                 <li class="font-medium">
@@ -267,7 +284,8 @@
                             </ul>
                         </div>
 
-                        <!-- Column 2: Safety & Technical Training --><div>
+                        <!-- Middle Column: Safety & Technical Training (3/5 - WIDER) -->
+                        <div class="md:col-span-3">
                             <h3 class="text-lg font-semibold text-gray-700 mb-3 flex items-center"><i data-lucide="shield" class="w-5 h-5 mr-2 text-teal-600"></i> Safety & Technical Training</h3>
                             <ul class="space-y-2 text-gray-700">
                                 <li>Safety Passport (March 2024)</li>
@@ -276,17 +294,22 @@
                                 <li>First Aid Adult and Pediatrics, AED Operator Certification</li>
                                 <li>EDEXCEL Forklift Truck Operations Award L2 NVQ</li>
                                 <li>NCFE Health and Safety L1</li>
+                                <li>LEAN Principles Certification</li>
                             </ul>
                         </div>
+                        
+                        <!-- Right Column: Spacer (1/5) -->
+                        <div class="md:col-span-1 hidden md:block"></div>
                     </div>
                 </section>
 
-                <!-- 5. Technical & Soft Skills -->
+                <!-- 5. Technical & Soft Skills (3 Columns: Wide Center) -->
                 <section id="technical-section">
                     <h2 class="section-title">Technical & Analytical Skills</h2>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
                         
-                        <div>
+                        <!-- Left Column: Software & Data (1/5) -->
+                        <div class="md:col-span-1">
                             <h3 class="font-semibold mb-1 flex items-center text-teal-600"><i data-lucide="code" class="w-4 h-4 mr-2"></i> Software & Data</h3>
                             <ul class="list-disc list-inside ml-4 text-sm space-y-1">
                                 <li>Data Analytics (Proficient Google Sheets & Excel)</li>
@@ -296,17 +319,20 @@
                             </ul>
                         </div>
 
-                        <div>
+                        <!-- Middle Column: Personal Attributes (3/5 - WIDER) -->
+                        <div class="md:col-span-3">
                             <h3 class="font-semibold mb-1 flex items-center text-teal-600"><i data-lucide="wrench" class="w-4 h-4 mr-2"></i> Personal Attributes</h3>
                             <ul class="list-disc list-inside ml-4 text-sm space-y-1">
                                 <li>Organizational Skills & Detail Orientation</li>
-                                <li>Good Teamwork</li>
+                                <li>Good Teamwork & Collaboration</li>
                                 <li>Active Listening</li>
-                                <li>Adaptability</li>
+                                <li>Adaptability & Flexibility</li>
+                                <li>Problem-Solving & Decision Making</li>
                             </ul>
                         </div>
 
-                        <div>
+                        <!-- Right Column: Interests (1/5) -->
+                        <div class="md:col-span-1">
                             <h3 class="font-semibold mb-1 flex items-center text-teal-600"><i data-lucide="zap" class="w-4 h-4 mr-2"></i> Interests</h3>
                             <ul class="list-disc list-inside ml-4 text-sm space-y-1">
                                 <li>Drone Operations</li>
@@ -327,7 +353,7 @@
         </div>
     </div>
 
-    <!-- Script to set current year in footer --><script>
+    <!-- Script to set current year in footer (Simulating script.js) --><script>
         document.getElementById('current-year').textContent = new Date().getFullYear();
 
         // ---------------------------------------------------------
