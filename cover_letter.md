@@ -1,15 +1,13 @@
-ELEUTERIO SOUSA RAMOS  
-(+44) 07477 026 978 | e.s.2ramos@icloud.com  
+## ELEUTERIO SOUSA RAMOS  
+### (+44) 07477 026 978 | e.s.2ramos@icloud.com  
 United Kingdom (Settled Status – Proof available upon request)  
-\[Date\]
 
-\[Hiring Manager Name\]  
-\[Hiring Manager Title\]  
-\[Company Name\]  
-\[Company Address\]  
+
+TO WHOM MAY CONCERN
+
 **Subject: Application for \[Specific Job Title in Logistics/Operations\]**
 
-Dear \[Hiring Manager Name or "Hiring Team"\],
+Dear Sir(M'am),
 
 I am writing to express my strong interest in a demanding role within logistics, warehousing, or operations management, where my comprehensive 15-year background in physical logistics, safety compliance, and diverse heavy equipment operation can immediately contribute to your efficiency goals.
 
