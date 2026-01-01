@@ -4,7 +4,7 @@
 
 I am a Logistics and Safety Specialist with over 15 years of experience in high-pressure operational environments. While my background is primarily in industrial sectors, I possess a versatile skill set focused on strict safety compliance, procedural accuracy, and team reliability—qualities I am eager to bring to your team.
 
-My experience makes me a strong candidate for this role because:
+My experience makes me a strong candidate because:
 
 * **Safety & Compliance:** As a qualified Safety Attendant (Hole Watcher) and FLT Operator, I am trained to follow strict Standard Operating Procedures (SOPs) without deviation. I have a "Safety First" mindset that ensures I protect colleagues, customers, and equipment at all times.
 * **Operational Discipline:** Whether managing inventory, tracking sensitive records patient confidentiality, or ensuring the "Chain of Custody" for goods, I pride myself on accuracy and attention to detail. I am used to working in time-critical environments where mistakes cannot happen.
